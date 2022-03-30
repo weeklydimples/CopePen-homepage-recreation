@@ -1,0 +1,22 @@
+
+
+.footer > .border-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 102px;
+    font-size: 100px;
+    background-color: rgb(28, 28, 34);
+    color: rgb(246, 246, 246);
+}
+
+.footer > .border-wrapper > button {
+    display: inline-block;
+    padding: 20px;
+    background-color:rgb(56, 58, 65);
+    color: white;
+    font-size: large;
+    border-radius: 2px;
+    text-decoration: none !important;
+    pointer-events: none;
+    
+}

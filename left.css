@@ -1,0 +1,59 @@
+.hero-section {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: rgb(9, 9, 10);
+    background: linear-gradient(to right, rgb(70, 70, 75),rgb(22, 21, 29) , black);
+    
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1px;
+}
+/* left side */
+.hero-section > .left {
+    padding: 20px 20px 5px 30px;
+    font-size: 40px;
+    
+}
+
+.hero-section > .left > .bottom-bottons {
+    font: size 5px;
+}
+
+.hero-section > .left > .bottom-bottons button {
+    height: 100%;
+    border: none;
+    background: black;
+    font-size: 1.5em;
+    /* font: size 100px; */
+}
+
+.hero-section > .left > .bottom-bottons button:nth-of-type(1) {
+    color: black;
+    background-color: rgb(80, 180, 113);
+    font-weight: 20px;
+}
+
+.hero-section > .left > .bottom-bottons button:nth-of-type(2) {
+    color: white;
+}
+
+/* right side */
+.hero-section > .right {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    object-position: 100%;
+    padding-top: 30px;
+    font-size: 20px;
+   
+}
+
+.hero-section > .right > img {
+    display: flex;
+    /* padding: 20px; */
+    max-height: 30em;
+    height: 100%;
+    /* object-fit:cover; */
+    object-position: 100%;
+
+}
